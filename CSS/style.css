@@ -48,6 +48,8 @@ header div {
   background-color: #041821;
   border: none;
   color: white;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .paramBoutonSurbrillance {
@@ -72,8 +74,8 @@ h2 {
 
 
 .formatpage {
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 8em;
+  margin-right: 8em;
 }
 
 
@@ -89,3 +91,54 @@ h2 {
   object-fit: cover;
 }
 
+footer {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 90px;
+  margin-left: 30%;
+  font-size: 12px;
+}
+
+
+
+
+/* Partie téléphone */
+
+
+@media screen and (max-width: 1024px)  {
+  
+  header {
+    display: inherit;
+    text-align: center;
+    width: auto;
+    padding: 5%;
+}
+
+.formatpage {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.paramP {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color : #808080;
+}
+
+.grille img:nth-child(n + 10) {  
+  display: none;
+}
+
+.grille {
+  grid-template-columns: repeat(3, 1fr); 
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 90px;
+  margin-left: 15%;
+  font-size: 12px;
+}
+
+}
