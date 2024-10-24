@@ -9,12 +9,12 @@ body {
 }
 
 header {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Yeseva One', cursive;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #808080;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -31,4 +31,21 @@ header {
 header div {
   text-align: right;
   width: 100%;
+}
+
+.marge {
+  width: 50%;
+}
+
+.centre {
+  text-align: center;
+}
+
+.chgments_clr {
+  color: #1bd79e;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 1.25em;
 }
