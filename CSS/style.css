@@ -33,12 +33,28 @@ header div {
   width: 100%;
 }
 
-.marge {
-  width: 50%;
+.paramP {
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+  color : #808080;
 }
 
-.centre {
+.centre{
   text-align: center;
+}
+
+.paramBouton {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #041821;
+  border: none;
+  color: white;
+}
+
+.paramBoutonSurbrillance {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1bd79e;
+  border: none;
+  color: white;
 }
 
 .chgments_clr {
@@ -48,4 +64,14 @@ header div {
 h1 {
   font-weight: normal;
   font-size: 1.25em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+
+.formatpage {
+  margin-left: 5em;
+  margin-right: 5em;
 }
