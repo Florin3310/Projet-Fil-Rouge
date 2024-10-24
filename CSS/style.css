@@ -21,4 +21,14 @@ header {
 
 .icone {
     padding-right: 15px;
+    color: white;
+}
+
+.nom_haut_gauche {
+  width: 30%;
+}
+
+header div {
+  text-align: right;
+  width: 100%;
 }
