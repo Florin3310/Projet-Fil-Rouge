@@ -75,3 +75,17 @@ h2 {
   margin-left: 5em;
   margin-right: 5em;
 }
+
+
+.grille {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5em;
+  margin-top: 30px;
+}
+
+.grille img {
+  width: 100%;
+  object-fit: cover;
+}
+
